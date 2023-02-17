@@ -1,0 +1,31 @@
+// prime no
+
+ let num = 5;
+
+let fact = 0;
+for (let i=2; i<=num; i++){
+if (num%i==0){
+fact++
+}
+} 
+if (fact==2){
+console.log("prime");
+}
+else {
+console.log("not a prime");
+}
+
+
+// pallindrome no.
+
+let str = "dad";
+bag = ""
+for (let i=0; i<str.length; i++){
+bag+=str[i]
+}
+if (str==bag){
+console.log("palindrone");
+}
+else {
+console.log("not a pallindrone");
+}
