@@ -19,13 +19,18 @@ console.log("not a prime");
 // pallindrome no.
 
 let str = "dad";
-bag = ""
+let bag = ""
 for (let i=0; i<str.length; i++){
-bag+=str[i]
+
+  bag+=str[i]
 }
+
+
 if (str==bag){
-console.log("palindrone");
+console.log("palindrome");
 }
 else {
-console.log("not a pallindrone");
+console.log("not a pallindrome");
 }
+
+//  I have done my part
